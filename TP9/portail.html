@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arena Portail</title>
+    <link rel="stylesheet" href="portail.css">
+</head>
+<body>
+<main class="arena-card">
+    <header class="title-label">JS Arena</header>
+    <div class="input-container">
+        <input type="text" class="field-style" id="pseudo" placeholder="VOTRE PSEUDO">
+    </div>
+    <div class="input-container">
+        <input type="text" class="field-style" id="serverUrl" value="ws://13.38.137.68:8000/ws" placeholder="URL DU SERVEUR">
+    </div>
+    <div class="character-scroll">
+        <div class="skins-container">
+        </div>
+    </div>
+    <button class="action-button" onclick="joinGame()">Lancer l'arène</button>
+</main>
+<script src="portail.js"></script>
+</body>
+</html>
